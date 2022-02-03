@@ -39,7 +39,7 @@ const Tableku = () => {
                 <td>{result.username}</td>
                 <td>{result.phone}</td>
                 <td>
-                  <a href="#" className="btn btn-outline-primary btn-detail btn-pengajuan">
+                  <a href="!#" className="btn btn-outline-primary btn-detail btn-pengajuan">
                     <i className="material-icons mr-2">info</i> Detail
                   </a>
                 </td>
