@@ -11,7 +11,7 @@ class NavbarToggle extends React.Component {
 
   handleClick() {
     Dispatcher.dispatch({
-      actionType: Constants.TOGGLE_SIDEBAR
+      actionType: Constants.TOGGLE_SIDEBAR,
     });
   }
 
@@ -23,7 +23,7 @@ class NavbarToggle extends React.Component {
           <i className="material-icons">&#xE5D2;</i>
         </a>
       </nav>
-    )
+    );
   }
 }
 

@@ -1,10 +1,10 @@
-export default function() {
+export default function () {
   return [
     {
       title: "Blog Dashboard",
       to: "/blog-overview",
       htmlBefore: '<i class="material-icons">edit</i>',
-      htmlAfter: ""
+      htmlAfter: "",
     },
     {
       title: "Blog Posts",
@@ -35,6 +35,11 @@ export default function() {
       title: "Errors",
       htmlBefore: '<i class="material-icons">error</i>',
       to: "/errors",
-    }
+    },
+    {
+      title: "Tableku",
+      htmlBefore: '<i class="material-icons">table_chart</i>',
+      to: "/tableku",
+    },
   ];
 }

@@ -7,6 +7,8 @@ import NavbarSearch from "./NavbarSearch";
 import NavbarNav from "./NavbarNav/NavbarNav";
 import NavbarToggle from "./NavbarToggle";
 
+import "./MainNavbar.css"
+
 const MainNavbar = ({ layout, stickyTop }) => {
   const classes = classNames(
     "main-navbar",
